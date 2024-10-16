@@ -1,0 +1,183 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+    margin-left: 20%;
+}
+
+nav ul li {
+    margin: 0 1rem;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-form input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+   
+}
+
+.search-form button {
+    padding: .5rem 1rem;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #555;
+}
+
+
+.hero {
+    background-color: #e3e3e3;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .shop-now {
+    padding: 0.8rem 2rem;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero .shop-now:hover {
+    background-color: #ff4500;
+}
+
+
+.product {
+    padding: 2rem;
+    text-align: center;
+}
+
+.product h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.products-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.products-list {
+    background-color: white;
+  
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.products-list img {
+    width: 100%;
+    height: 300px;
+}
+
+.products-list .add-to-cart {
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 0.5rem 1rem;
+    background-color: #ffd814;
+    color: rgb(12, 12, 12);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+   
+}
+
+.products-list .add-to-cart:hover {
+    background-color:#f0e54e;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 10rem;
+}
+
+footer p {
+    margin: 0;
+}
+#shop-name{
+    color: whitesmoke;
+    position: relative;
+    margin-right: 10%;
+    font-size: 5em;
+}
+.logo
+{
+  position: relative;
+  margin-left: 10%;
+}
+ #price{
+    font-weight: 100;
+    font-size: large;
+ }
+ #delivery{
+    font-weight: 100;
+    font-size: large;
+ }
+ #dress{
+    font-weight: 100;
+    font-size: large;
+ }
